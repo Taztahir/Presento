@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <section id="home" className="md:h-screen bg-hero">
-      <div className="md:h-screen bg-black/70 max-md:py-40 lg:pt-30">
-      <div className="flex mx-auto max-w-6xl items-center pt-26">
-        <div className="lg:max-w-6xl max-lg:text-center px-5 space-y-5 grid items-center">
+    <section id="home" className="h-screen bg-hero">
+      <div className="h-screen bg-black/70 max-lg:py-40 lg:pt-30">
+      <div className="lg:flex mx-auto max-w-6xl items-center pt-26">
+        <div className="lg:max-w-6xl max-lg:text-center lg:px-5 space-y-5 grid items-center">
           
           {/* Heading Motion */}
           <motion.h1
@@ -33,7 +33,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
-            className="md:flex max-lg:space-y-3 items-center"
+            className="lg:flex max-lg:space-y-3 items-center"
           >
             <a
               href="#gallery"

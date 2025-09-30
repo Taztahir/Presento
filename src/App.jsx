@@ -5,6 +5,7 @@ import Sponsores from './Pages/Sponsores'
 import ScrollUpButton from './ScrollUpButton'
 import About from './Pages/About'
 import StatsSection from './Pages/StatsSection'
+import Feature from './Pages/Features'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Sponsores/>
       <About/>
       <StatsSection/>
+      <Feature/>
       <ScrollUpButton/>
     </>
   )

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <section id="home" className="h-screen bg-hero">
-      <div className="h-screen bg-black/70 pt-40">
+      <div className="h-screen bg-black/70 pt-40 lg:pt-30">
       <div className="lg:flex mx-auto max-w-6xl items-center pt-26">
         <div className="lg:max-w-6xl max-lg:text-center lg:px-5 space-y-5 grid items-center">
           
